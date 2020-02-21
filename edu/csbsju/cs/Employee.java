@@ -13,8 +13,14 @@ public class Employee
       GregorianCalendar calendar = new GregorianCalendar(year, month - 1, day);
          // GregorianCalendar uses 0 for January
       hireDay = calendar.getTime();
+      
    }
 
+   public String getInfo(name, salary, hireday)
+   {
+	   return myString = toString(n+" my salary is, " + s);
+   }
+   
    public String getName()
    {
       return name;
